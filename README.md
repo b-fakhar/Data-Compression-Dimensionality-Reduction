@@ -13,8 +13,8 @@ Non-negative matrix factorization is an unsupervised dimension reduction method 
 According to the experimental results, the introduced unsupervised dimensionality reduction algorithms
 
 - Provide smaller error in finding a low-dimensional data structure WH to approximately recover V comared with existing NNMF methods such as MIN-VOL NMF, A-HALS, HALS, MU, SPA, and RSPA.
-- Are more robust to outliers.
-- Provide higher quality solution for column selection problems.
+- Are more robust to outliers compared to SPA and RSPA.
+- Provide higher quality solution for column selection problems vs. the existing separable NNMF method GS-FGM.
 
 
 # Image-datasets
