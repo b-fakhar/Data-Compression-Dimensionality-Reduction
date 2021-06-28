@@ -1,26 +1,20 @@
 # Data Compression/Dimensionality Reduction
 
 #### Summary 
-In this project, three new Non-Negative Matrix Factorization (NNMF) algorithms based on solution methods for the MAX FS problem
-have been developed. The introduced new NNMF algorithms (Feasible Subset Matrix Factorization (FSMF), Fast Feasible Subset Matrix Factorization Algorithm (FFSMF), and Feasible Subset Matrix Factorization - Partitioned (FSMF-P)) do not require any initialization method in contrast to most of the existing NNMF methods. The performance of the proposed methods has investigated considering different set of synthetic and real-world datasets.
+In this project, three new unsupervised Non-Negative Matrix Factorization (NNMF) algorithms based on solution methods for the MAX FS problem have been developed. The introduced new NNMF algorithms (Feasible Subset Matrix Factorization (FSMF), Fast Feasible Subset Matrix Factorization Algorithm (FFSMF), and Feasible Subset Matrix Factorization - Partitioned (FSMF-P)) do not require any initialization method in contrast to most of the existing NNMF methods. The performance of the proposed methods has investigated considering different set of synthetic and real-world image datasets.
 
-## Objective
-Develop and apply new optimization algorithms for dimensionality reduction. The optimization algorithms developed   
-The Proposed NNMF algorithms do NOT require 
-The initialization step
-Prespecified rank (P)
-![image](https://user-images.githubusercontent.com/59096353/114217556-521f5180-9936-11eb-88a6-4e42f6c64bd6.png)
-
-
-
-
-Non-Negative Matrix Factorization (NNMF) for Dimensionality Reduction 
+### Non-Negative Matrix Factorization (NNMF) for Dimensionality Reduction 
 Non-negative matrix factorization is an unsupervised dimension reduction method which determines a lower rank approximation of a given non-negative matrix V. 
 
 ![NNMF Def](https://user-images.githubusercontent.com/59096353/114217351-08cf0200-9936-11eb-8bd8-9385596c88ce.png)
 
 
+## Achievements
+According to the experimental results, the introduced unsupervised dimensionality reduction algorithms
 
+- Provide smaller error in finding a low-dimensional data structure WH to approximately recover V comared with existing NNMF methods such as MIN-VOL NMF, A-HALS, HALS, MU, SPA, and RSPA.
+- Are more robust to outliers.
+- Provide higher quality solution for column selection problems.
 
 
 # Image-datasets
