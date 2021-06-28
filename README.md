@@ -1,4 +1,4 @@
-# New Optimization Algorithms for Dimensionality Reduction  
+# Data Compression/Dimensionality Reduction
 
 #### Summary 
 In this project, three new Non-Negative Matrix Factorization (NNMF) algorithms based on solution methods for the MAX FS problem
