@@ -1,20 +1,11 @@
-# Data Compression/Dimensionality Reduction
+## Summary
+-	Developed multiple unsupervised data compression algorithms, which are robust to outliers.
+-	Compared the proposed data compression methods with widely used separable algorithms using Yale face datasets, Olivetti Research Laboratory (ORL) face dataset, and Centre for Biological and Computational Learning (CBCL) face datasets.
+-	Improved the relative approximation quality of the existing separable classification method by 5% on average.
 
-#### Summary 
-In this project, three new unsupervised Non-Negative Matrix Factorization (NNMF) algorithms based on solution methods for the MAX FS problem have been developed. The introduced new NNMF algorithms (Feasible Subset Matrix Factorization (FSMF), Fast Feasible Subset Matrix Factorization Algorithm (FFSMF), and Feasible Subset Matrix Factorization - Partitioned (FSMF-P)) do not require any initialization method in contrast to most of the existing NNMF methods. The performance of the proposed methods has investigated considering different set of synthetic and real-world image datasets.
+## Skills /Tools: 
+- Data Compression (PCA, SVD, Non-Negative Matrix Factorization), Optimization, MATLAB, MOSEK, LaTeX. 
 
-### Non-Negative Matrix Factorization (NNMF) for Dimensionality Reduction 
-Non-negative matrix factorization is an unsupervised dimension reduction method which determines a lower rank approximation of a given non-negative matrix V. 
-
-![NNMF Def](https://user-images.githubusercontent.com/59096353/114217351-08cf0200-9936-11eb-8bd8-9385596c88ce.png)
-
-
-## Achievements
-According to the experimental results, the introduced unsupervised dimensionality reduction algorithms
-
-- Provide smaller error in finding a low-dimensional data structure WH to approximately recover V comared with existing NNMF methods such as MIN-VOL NMF, A-HALS, HALS, MU, SPA, and RSPA.
-- Are more robust to outliers compared to SPA and RSPA.
-- Provide higher quality solution for column selection problems vs. the existing separable NNMF method GS-FGM.
 
 
 # Image-datasets
