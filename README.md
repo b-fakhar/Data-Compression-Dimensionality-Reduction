@@ -1,8 +1,8 @@
 # Data Compression/Dimensionality Reduction
 ## Summary
--	Developed multiple unsupervised data compression algorithms, which are robust to outliers.
--	Compared the proposed data compression methods with widely used separable algorithms using Yale face datasets, Olivetti Research Laboratory (ORL) face dataset, and Centre for Biological and Computational Learning (CBCL) face datasets.
--	Improved the relative approximation quality of the existing separable classification method by 5% on average.
+-	Designed and developed multiple unsupervised data compression algorithms that are resilient to outliers, resulting in significant improvements in data compression quality.
+-	Conducted comparative analysis of the proposed data compression methods with widely used separable algorithms using multiple face datasets, including Yale, Olivetti Research Laboratory (ORL), and Centre for Biological and Computational Learning (CBCL), demonstrating the superiority of the developed algorithms in terms of accuracy and robustness. 
+-	Optimized the relative approximation quality of the existing separable classification method by an average of 5%, using the developed algorithms and techniques.
 
 ## Skills /Tools: 
 - Data Compression (PCA, SVD, Non-Negative Matrix Factorization), Optimization, MATLAB, MOSEK, LaTeX. 
